@@ -1,0 +1,61 @@
+html, body {
+
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 2em;
+}
+
+body {
+	/*background-image: url("http://www.hdimagewallpaper.com/wp-content/uploads/2015/02/Aurora-Borealis-13-HD-Images-Wallpapers.jpg")*/
+}
+
+
+.test {
+	border: 1px solid black;
+	padding: 1em;
+}
+
+//AUTH HTML
+
+.loginButton {
+	display: inline-block;
+	width: 10%;
+	float: left;
+	margin: 2em;
+}
+
+.register {
+	margin: 1em;
+}
+
+//USER HTML
+.profileImage {
+	height: 5em;
+	width: 5em;
+}
+
+
+//CALENDAR HTML
+.page-header {
+	text-align: right;
+	border: 1px solid green;
+}
+
+.calendar {
+	opacity: .80;
+}
+
+.time {
+	width: 10%;
+	text-align: center;
+	font-size: 16px;
+}
+
+.day {
+	width: 15%;
+	border: 1px dashed black;
+	text-align: center;
+	font-size: 16px;
+}
+
