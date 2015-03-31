@@ -1,0 +1,26 @@
+{
+  "name": "iAmSkoot",
+  "version": "0.0.0",
+  "description": "iAmSkoot",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.12.2",
+    "mongoose": "^3.8.25",
+    "express": "^4.12.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scottmmiller/iAmSkoot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottmmiller/iAmSkoot/issues"
+  },
+  "homepage": "https://github.com/scottmmiller/iAmSkoot"
+}
