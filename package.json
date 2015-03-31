@@ -4,9 +4,19 @@
   "description": "iAmSkoot",
   "main": "server.js",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.12.2",
-    "mongoose": "^3.8.25",
-    "express": "^4.12.3"
+    "cors": "^2.5.3",
+    "express": "^4.12.3",
+    "express-session": "^1.10.4",
+    "firebase": "^2.2.3",
+    "moment": "^2.9.0",
+    "mongoose": "^3.9.7",
+    "passport": "^0.2.1",
+    "passport-google-oauth": "^0.2.0",
+    "passport-local": "^1.0.0",
+    "q": "^1.2.0",
+    "request": "^2.54.0"
   },
   "devDependencies": {},
   "scripts": {
