@@ -17,8 +17,8 @@ app.config(function($routeProvider) {
 			}
 		})
 		.when("/scheduler", {
-			templateUrl: "./scheduler/public/index.html",
-			controller: "public.controllers/public.CalendarCtrlr",
+			templateUrl: "#/scheduler/public/public.templates/auth.html",
+			controller: "./scheduler/public/public.controllers/public.CalendarCtrlr",
 			resolve: {
 				
 			}
