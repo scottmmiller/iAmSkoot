@@ -1,0 +1,36 @@
+.navbar {
+	height: 150px;
+}
+
+.navbar-brand {
+	text-align: center;
+	font-family: 'Rock Salt', cursive;
+	font-size: 50px;
+	margin: 35px 35px;
+}
+
+.construction {
+	font-family: 'Henny Penny', cursive;
+	font-size: 25px;
+}
+
+
+		/*PICS*/
+.thnail {
+/*	max-width: 100%;*/
+	min-height: 100px;
+	max-height: 300px;
+	margin: 1%;
+	border: 2px solid black;
+}
+
+
+fonts: {
+	font-family: 'Cherry Cream Soda', cursive;
+	font-family: 'Henny Penny', cursive;
+	font-family: 'Rock Salt', cursive;
+	font-family: 'Crafty Girls', cursive;
+	font-family: 'Unkempt', cursive;
+	font-family: 'Fontdiner Swanky', cursive;
+	font-family: 'Cinzel Decorative', cursive;
+};
