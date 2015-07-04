@@ -5,6 +5,12 @@ var connect = require("connect");
 var serveStatic = require("serve-static");
 var http = require("http");
 
+// var angular = require("angular");
+// var angularRoute = require("angular-route");
+// var bootstrap = require("bootstrap");
+// var jquery = require("jquery");
+// var materialize = require("materialize");
+
 var app = connect();
 
 var port = process.env.HMCAPTURES_PORT || 9999;
