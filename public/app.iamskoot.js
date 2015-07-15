@@ -16,13 +16,13 @@ app.config(function($routeProvider, $locationProvider) {
 
 			}
 		})
-		.when("/hmcaptures", {
-			templateUrl: "/hmCaptures/views/mainView.html",
-			controller: "MainController",
-			resolve: {
-
-			}
-		})
+		// .when("/hmcaptures", {
+		// 	templateUrl: "/hmCaptures/views/mainView.html",
+		// 	controller: "MainController",
+		// 	resolve: {
+		//
+		// 	}
+		// })
 		.otherwise("/");
 
 		// use the HTML5 History API
