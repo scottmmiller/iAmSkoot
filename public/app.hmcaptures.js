@@ -8,7 +8,7 @@ app.config(function($routeProvider, $locationProvider) {
       enabled: true,
       requireBase: false
     })
-    
+
   $routeProvider
     .when('/', {
       templateUrl: '/hmcaptures/views/mainView.html',

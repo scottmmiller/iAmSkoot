@@ -3,14 +3,14 @@ var app = angular.module("iAmSkoot", ["ngRoute"]);
 app.config(function($routeProvider, $locationProvider) {
 	$routeProvider
 		.when("/", {
-			templateUrl: "/iamskoot/views/home.html",
+			templateUrl: "iamskoot/views/iamskoot.html",
 			controller: "HomeCtrlr",
 			resolve: {
 
 			}
 		})
 		.when("/pics", {
-			templateUrl: "/iamskoot/views/pics.html",
+			templateUrl: "iamskoot/views/pics.html",
 			controller: "PicsCtrlr",
 			resolve: {
 
