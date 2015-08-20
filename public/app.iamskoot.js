@@ -1,7 +1,15 @@
 var app = angular.module("iAmSkoot", ["ngRoute"]);
 
 app.config(function($routeProvider, $locationProvider) {
-	$routeProvider
+
+	//  use the HTML5 History API for prettify URL
+	// $locationProvider.html5Mode(true);
+	$locationProvider.html5Mode({
+	  enabled: true,
+	  requireBase: false
+  });
+
+$routeProvider
 		.when("/", {
 			templateUrl: "iamskoot/views/iamskoot.html",
 			controller: "HomeCtrlr",
@@ -16,15 +24,13 @@ app.config(function($routeProvider, $locationProvider) {
 
 			}
 		})
-		// .when("/hmcaptures", {
-		// 	templateUrl: "/hmCaptures/views/mainView.html",
-		// 	controller: "MainController",
-		// 	resolve: {
-		//
-		// 	}
-		// })
+		.when("/hmcaptures", {
+			templateUrl: "hmCaptures/views/hmcaptures.html",
+			controller: "MainController",
+			resolve: {
+
+			}
+		})
 		.otherwise("/");
 
-		// use the HTML5 History API
-		$locationProvider.html5Mode(true);
 });
