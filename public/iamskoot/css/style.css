@@ -7,6 +7,11 @@
  * URL: http://blacktie.co
  */
 
+ @font-face {
+	 font-family: "Anime Ace 2.0 BB";
+	 src: local("../font/animeace2_reg.otf");
+ }
+
 .font-thin {
 	font-family: "Titillium Web", sans-serif;
 	font-weight: 200;
@@ -254,6 +259,18 @@ body {
 		padding-top: 25px;
 	}
 
+	#home-row-1 {
+		font-family: 'Anime Ace 2.0 BB', arial;
+		-webkit-text-stroke: 1px #000;
+		color: #ffffff;
+		text-shadow:
+			3px 3px 0 #000,
+			-1px -1px 0 #000,
+			1px -1px 0 #000,
+			-1px 1px 0 #000,
+			1px 1px 0 #000;
+	}
+
 	#home-row-1 h1 {
 		font-size: 54px;
 	}
@@ -460,7 +477,7 @@ body {
 #slide-5 {
 	background-color: #2f2f2f;
 	color: #e4e6e5;
-	padding-bottom: 350px;
+	padding-bottom: 90px;
 	padding-top: 90px;
 }
 
@@ -489,7 +506,7 @@ body {
 }
 
 	#contact-row-4 {
-		padding-top: 125px;
+		padding-top: 25px;
 	}
 
 	#contact-row-4 .col-12 {
